@@ -1,13 +1,13 @@
 import './Expenses.css'
 import ExpenseItem from './ExpenseItem';
-import Card from './Card';
+import Card from '../UI/Card';
 
 function Expenses() {
 
     const expenses = [
         {
           id: "e1",
-          title: "Toilet Paper",
+          title: "A4 Paper Sheets",
           amount: 94.12,
           date: new Date(2020, 7, 14),
         },
